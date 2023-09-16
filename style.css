@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1{
+    font-size: 2.5rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.Bigbody{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    flex-wrap: wrap;
+    padding: 3rem;
+    border: 1px solid black;
+    height: 300px;
+}
+label, #guess, #checkGuess, #message{
+    margin: 0.4rem auto;
+    width: 60%;
+}
+#guess{
+    position:relative;
+    background: linear-gradient(21deg, #9ac0d4, #1beabd);
+    border-radius: 9999em;
+}
