@@ -12,12 +12,13 @@ h1{
 .Bigbody{
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: fit-content;
     margin: auto;
     flex-wrap: unwrap;
     padding: 3rem;
     border: 1px solid black;
     height: 300px;
+    background-color: burlywood;
 }
 label, #guess, #checkGuess, #message{
     margin: 0.4rem auto;
