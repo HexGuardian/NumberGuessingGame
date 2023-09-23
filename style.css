@@ -14,7 +14,7 @@ h1{
     flex-direction: column;
     width: 50%;
     margin: auto;
-    flex-wrap: wrap;
+    flex-wrap: unwrap;
     padding: 3rem;
     border: 1px solid black;
     height: 300px;
@@ -25,6 +25,27 @@ label, #guess, #checkGuess, #message{
 }
 #guess{
     position:relative;
-    background: linear-gradient(21deg, #9ac0d4, #1beabd);
+    background: linear-gradient(21deg, #c6d7e0, #1beabd);
     border-radius: 9999em;
+}
+button{
+  
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-weight: 500;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    height: 36px;
+    line-height: 34px;
+    font-size: 14px;
+    color: #241c15;
+    background-color: #efeeea;
+    transition: background-color 0.2s ease-in-out 0s, opacity 0.2s ease-in-out 0s;
+    padding: 0 18px;
+    :hover {
+        color: #241c15;
+        background-color: #d9d7cd;
+    }
+  
 }
